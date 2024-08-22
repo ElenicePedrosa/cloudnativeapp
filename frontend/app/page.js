@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import Image from "next/image";
+
 export default function Home() {
-return (
-<>
+  return (
+    <>
 <Head>
 <title>Cloud Native App</title>
 <meta name="description" content="Cloud Native App" />
@@ -15,6 +15,5 @@ return (
 </p>
 </div>
 </main>
-</>
-)
+  );
 }
